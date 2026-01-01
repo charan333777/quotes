@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns items to the top */
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #fff; /* Changed to white for better contrast on varying backgrounds */
+    transition: background 0.5s ease-in-out;
+}
+
+
+h1 {
+    color: #fff; /* Changed to white */
+    font-size: 3.5em; /* Bigger text size */
+    margin-top: 65px; /* Moved one line down */
+    margin-bottom: 30px;
+}
+
+#quote-display {
+    margin-top: auto; /* Moves quote to the middle */
+    margin-bottom: auto; /* Moves quote to the middle */
+    min-height: 120px; /* Ensure consistent height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quote-text {
+    font-size: 2.2em; /* Increased text size */
+    font-style: italic;
+    margin: 0 0 15px 0;
+    line-height: 1.5;
+}
+
+#quote-author {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff; /* Changed to white */
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 4em; /* Moved 2 rows up (increased margin-bottom) */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
